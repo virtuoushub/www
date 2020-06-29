@@ -1,6 +1,6 @@
 # [iinf.in](https://iinf.in)
 
-[![Netlify status](https://img.shields.io/netlify/577e843a-370d-4a1f-8fc1-c28b2c8b11f6é?style=flat&colorA=000000&colorB=000000)](https://app.netlify.com/sites/u29dc/deploys)
+[![Netlify status](https://img.shields.io/netlify/577e843a-370d-4a1f-8fc1-c28b2c8b11f6?style=flat&colorA=000000&colorB=000000)](https://app.netlify.com/sites/u29dc/deploys)
 [![Website status](https://img.shields.io/website?url=https%3A%2F%2Fiinf.in?style=flat&colorA=000000&colorB=000000)](https://iinf.in)
 [![W3 validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fiinf.in?style=flat&colorA=000000&colorB=000000)](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fiinf.in)
 

@@ -21,7 +21,7 @@
 		"postcss-url": "^8.0.0"
 	},
 	"homepage": "https://iinf.in",
-	"license": "CC0-1.0",
+	"license": "Unlicense",
 	"name": "@u29dc/www",
 	"repository": {
 		"type": "git",

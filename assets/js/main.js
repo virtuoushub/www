@@ -30,6 +30,6 @@ function noise() {
 		})();
 }
 
-window.onload = function () {
-	console.log("⧜"), noise();
-};
+noise();
+
+console.log("⧜");

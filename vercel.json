@@ -1,4 +1,5 @@
 {
+	"alias": ["u29dc.vercel.app", "iinfin.vercel.app", "u29dc.now.sh", "iinfin.now.sh"],
 	"build": {
 		"env": {
 			"HUGO_VERSION": "0.73.0"

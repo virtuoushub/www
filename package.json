@@ -1,12 +1,4 @@
 {
-	"author": {
-		"name": "iinfin",
-		"url": "https://iinf.in"
-	},
-	"bugs": {
-		"url": "https://github.com/u29dc/www/issues"
-	},
-	"description": "⧜",
 	"devDependencies": {
 		"@babel/cli": "^7.10.1",
 		"@babel/core": "^7.10.2",
@@ -20,19 +12,11 @@
 		"postcss-preset-env": "^6.7.0",
 		"postcss-url": "^8.0.0"
 	},
-	"homepage": "https://iinf.in",
-	"license": "Unlicense",
-	"name": "@u29dc/www",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/u29dc/www"
-	},
 	"scripts": {
 		"build": "npm run hugo",
 		"dev": "hugo server --disableFastRender --renderToDisk  --port 1111",
 		"hugo": "hugo --minify",
 		"now-build": "npm run theme && npm run build",
 		"theme": "git submodule add -f https://github.com/u29dc/hbp.git themes/hbp && git submodule update --rebase --remote"
-	},
-	"version": "4.0.0"
+	}
 }

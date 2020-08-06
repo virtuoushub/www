@@ -50,6 +50,7 @@
   [headers.values]
     Content-Security-Policy = """
         base-uri 'self';
+        connect-src 'self' cdn.jsdelivr.net;
         default-src 'none';
         font-src 'self' cdn.jsdelivr.net;
         form-action 'self';

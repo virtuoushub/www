@@ -33,7 +33,7 @@ title: iinfin (@u29dc)
 
 params:
     resources:
-        fingerprint: true
+        fingerprint: false
         inline: false
 
     description: ⧜

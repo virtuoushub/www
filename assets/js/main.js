@@ -33,3 +33,9 @@ function noise() {
 noise();
 
 console.log("⧜");
+
+window.onload = () => {
+	if ("serviceWorker" in navigator) {
+		navigator.serviceWorker.register("./sw.js");
+	}
+};

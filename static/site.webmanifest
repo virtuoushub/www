@@ -16,6 +16,8 @@
 		}
 	],
 	"name": "iinfin",
+	"orientation": "portrait",
+	"scope": "/",
 	"short_name": "u29dc",
 	"start_url": "https://iinf.in",
 	"theme_color": "#000000"

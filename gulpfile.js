@@ -4,7 +4,7 @@ const gulp = require("gulp"),
 
 gulp.task("worker", () => {
 	return workbox.generateSW({
-		cacheId: "cache",
+		cacheId: "u29dc",
 		globDirectory: "./public",
 		globIgnores: ["**/index.xml", "**/index.json", "**/sitemap.xml"],
 		globPatterns: ["**/*.{js,css,html}"],

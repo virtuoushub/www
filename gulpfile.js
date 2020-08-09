@@ -13,7 +13,7 @@ gulp.task("worker", () => {
 		swDest: "./public/worker.js",
 		runtimeCaching: [
 			{
-				urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico)$/,
+				urlPattern: /\.(?:png|jpg|jpeg|gif|bmp|webp|svg|ico|webmanifest)$/,
 				handler: "CacheFirst",
 			},
 			{

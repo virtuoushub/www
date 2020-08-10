@@ -32,4 +32,4 @@ function noise() {
 
 noise();
 
-console.log("%c⧜", "color:white; background-color:black; padding:5px; border-radius:5px;");
+console.log("⧜");

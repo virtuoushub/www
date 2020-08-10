@@ -1,12 +1,25 @@
-####################################################################################################
+theme: hbp
+
 canonifyURLs: false
 cleanDestinationDir: true
 copyright: Public Domain
 defaultContentLanguage: en
+metaDataFormat: yaml
+noTimes: true
+publishDir: public
+relativeURLs: true
+verbose: false
+watch: true
 disableKinds:
     - RSS
     - taxonomy
     - taxonomyTerm
+minify:
+    minifyOutput: true
+    tdewolff:
+        html:
+            keepConditionalComments: false
+            keepQuotes: true
 
 languages:
     en:
@@ -14,18 +27,6 @@ languages:
         languageLang: en
         languageName: English
         weight: 0
-
-metaDataFormat: yaml
-noTimes: true
-publishDir: public
-permalinks:
-    posts: /posts/:filename/
-
-relativeURLs: true
-verbose: false
-watch: true
-
-theme: hbp
 
 ####################################################################################################
 baseURL: https://iinf.in/

@@ -53,11 +53,7 @@
 	"redirects": [
 		{
 			"destination": "https://iinf.in",
-			"source": "(.*).now.sh"
-		},
-		{
-			"destination": "https://iinf.in",
-			"source": "(.*).vercel.app"
+			"source": "/(.*)"
 		}
 	]
 }

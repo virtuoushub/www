@@ -1,50 +1,19 @@
 [Settings]
 
-# build settings
-##################################################
 [build]
   command = "rm -rf themes && npm run theme && npm run build"
   publish = "public/"
 
-# build environment
 [build.environment]
   HUGO_VERSION = "0.74.3"
-  NODE_VERSION = "14.7.0"
+  NODE_VERSION = "14.8.0"
 
-# build processing
-[build.processing]
-  skip_processing = true
-
-[build.processing.css]
-  bundle = false
-  minify = false
-
-[build.processing.js]
-  bundle = false
-  minify = false
-
-[build.processing.html]
-  pretty_urls = true
-
-[build.processing.images]
-  compress = false
-
-# redirects
-##################################################
 [[redirects]]
   from = "https://u29dc.netlify.app/*"
   to = "https://iinf.in/:splat"
   status = 301
   force = true
 
-# pgp key
-[[redirects]]
-  from = "/pgp"
-  status = 301
-  to = "https://keybase.io/u29dc/pgp_keys.asc"
-
-# headers
-##################################################
 [[headers]]
   for = "/*"
   [headers.values]

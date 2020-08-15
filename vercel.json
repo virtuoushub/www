@@ -1,16 +1,9 @@
 {
-	"alias": [
-		"u29dc.vercel.app",
-		"iinfin.vercel.app",
-		"u29dc.now.sh",
-		"iinfin.now.sh"
-	],
 	"build": {
 		"env": {
 			"HUGO_VERSION": "0.74.3"
 		}
 	},
-	"cleanUrls": true,
 	"github": {
 		"silent": true
 	},
@@ -60,9 +53,11 @@
 	"redirects": [
 		{
 			"destination": "https://iinf.in",
-			"source": "/(.*)"
+			"source": "(.*).now.sh"
+		},
+		{
+			"destination": "https://iinf.in",
+			"source": "(.*).vercel.app"
 		}
-	],
-	"scope": "u29dc",
-	"trailingSlash": false
+	]
 }

@@ -7,3 +7,13 @@
 [![Security Headers](https://img.shields.io/security-headers?url=https%3A%2F%2Fiinf.in?style=flat&colorA=000000&colorB=000000)](https://securityheaders.com/?q=https%3A%2F%2Fiinf.in&followRedirects=on)
 [![Google CSP](https://img.shields.io/badge/-Google%20CSP%20Evaluator-000000?style=flat&colorA=000000&colorB=000000)](https://csp-evaluator.withgoogle.com/?csp=http://iinf.in)
 [![Google PageSpeed](https://img.shields.io/badge/-Google%20PageSpeed-000000?style=flat&colorA=000000&colorB=000000)](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fiinf.in)
+
+```bash
+git clone https://github.com/u29dc/www.git
+
+npm i
+npm run theme
+
+npm run dev
+npm run build
+```

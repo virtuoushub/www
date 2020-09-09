@@ -14,7 +14,7 @@
 					"value": "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
 				},
 				{
-					"key": "Feature-Policy",
+					"key": "Permissions-Policy",
 					"value": "accelerometer 'self'; ambient-light-sensor 'self'; autoplay 'self'; camera 'self'; document-domain 'self'; encrypted-media 'self'; fullscreen 'self'; geolocation 'self'; gyroscope 'self'; magnetometer 'self'; microphone 'self'; midi 'self'; payment 'self'; picture-in-picture 'self'; speaker 'self'; sync-xhr 'self'; usb 'self'; vr / xr 'self';"
 				},
 				{

@@ -1,11 +1,10 @@
 [Settings]
 
 [build]
-  command = "rm -rf themes && npm run theme && npm run build"
-  publish = "public/"
+  command = "npm run export"
+  publish = "out/"
 
 [build.environment]
-  HUGO_VERSION = "0.74.3"
   NODE_VERSION = "14.8.0"
 
 [[redirects]]
@@ -60,18 +59,3 @@
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "deny"
     X-XSS-Protection = "1; mode=block"
-
-[[headers]]
-  for = "*.css"
-  [headers.values]
-    Content-Type = "text/css; charset=utf-8"
-
-[[headers]]
-  for = "*.js"
-  [headers.values]
-    Content-Type = "text/javascript; charset=utf-8"
-
-[[headers]]
-  for = "*.webmanifest"
-  [headers.values]
-    Content-Type = "application/manifest+json; charset=utf-8"

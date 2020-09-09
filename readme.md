@@ -11,9 +11,8 @@
 ```bash
 git clone https://github.com/u29dc/www.git
 
-npm i
-npm run theme
+yarn
 
-npm run dev
-npm run build
+yarn dev
+yarn build
 ```

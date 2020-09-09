@@ -1,12 +1,34 @@
-# node
+# dependencies
+.pnp
+.pnp.js
 node_modules
 package-lock.json
+yarn.lock
 
-# hugo
-public
-resources
-themes
-go.sum
+# testing
+coverage
 
-# other
+# next.js
+.next
+build
+out
+
+# debug
+debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env.development.local
+.env.local
+.env.production.local
+.env.test.local
+
+# vercel
+.vercel
+
+# misc
+.DS_Store
+*.pem
 tmp

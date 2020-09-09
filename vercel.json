@@ -1,9 +1,4 @@
 {
-	"build": {
-		"env": {
-			"HUGO_VERSION": "0.74.3"
-		}
-	},
 	"github": {
 		"silent": true
 	},
@@ -49,5 +44,6 @@
 			],
 			"source": "/(.*)"
 		}
-	]
+	],
+	"scope": "u29dc"
 }

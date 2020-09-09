@@ -33,7 +33,7 @@
         upgrade-insecure-requests;
     """
     Expect-CT = "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""
-    Feature-Policy = """
+    Permissions-Policy = """
         accelerometer 'self';
         ambient-light-sensor 'self';
         autoplay 'self';

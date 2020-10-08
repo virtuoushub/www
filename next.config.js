@@ -3,7 +3,7 @@ const withOffline = require('next-offline');
 const nextConfig = {
 	generateInDevMode: true,
 	workboxOpts: {
-		swDest: '/sw.js',
+		swDest: '/service-worker.js',
 		runtimeCaching: [
 			{
 				urlPattern: /^https?.*/,

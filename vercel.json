@@ -55,13 +55,13 @@
 					"value": "/"
 				}
 			],
-			"source": "/sw.js"
+			"source": "/service-worker.js"
 		}
 	],
 	"rewrites": [
 		{
-			"destination": "/_next/static/sw.js",
-			"source": "/sw.js"
+			"destination": "/_next/static/service-worker.js",
+			"source": "/service-worker.js"
 		}
 	],
 	"scope": "u29dc"

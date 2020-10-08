@@ -43,6 +43,25 @@
 				}
 			],
 			"source": "/(.*)"
+		},
+		{
+			"headers": [
+				{
+					"key": "Cache-Control",
+					"value": "public, max-age=43200, immutable"
+				},
+				{
+					"key": "Service-Worker-Allowed",
+					"value": "/"
+				}
+			],
+			"source": "/sw.js"
+		}
+	],
+	"rewrites": [
+		{
+			"destination": "/_next/static/sw.js",
+			"source": "/sw.js"
 		}
 	],
 	"scope": "u29dc"

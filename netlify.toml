@@ -5,7 +5,7 @@
   publish = "out/"
 
 [build.environment]
-  NODE_VERSION = "14.8.0"
+  NODE_VERSION = "14.13.1"
 
 [[redirects]]
   from = "https://u29dc.netlify.app/*"
@@ -28,8 +28,8 @@
         manifest-src 'self';
         media-src 'self';
         object-src 'none';
-        script-src 'self';
-        style-src 'self';
+        script-src 'self' cdn.jsdelivr.net;
+        style-src 'self' cdn.jsdelivr.net;
         upgrade-insecure-requests;
     """
     Expect-CT = "max-age=604800, report-uri=\"https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct\""

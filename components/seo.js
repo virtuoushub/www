@@ -31,6 +31,7 @@ export default function SEO() {
 				<meta name="copyright" content="Public Domain" />
 				<link rel="license" href="https://creativecommons.org/publicdomain/zero/1.0" />
 
+				<link rel="apple-touch-icon" href="./apple-touch-icon.png" />
 				<link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
 				<link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
 				<link rel="manifest" href="./site.webmanifest" />
@@ -40,7 +41,6 @@ export default function SEO() {
 				<meta name="apple-mobile-web-app-status-bar-style" content="#000000" />
 				<meta name="apple-mobile-web-app-title" content="iinfin (@u29dc)" />
 				<meta name="application-name" content="iinfin (@u29dc)" />
-
 				<meta name="mobile-web-app-capable" content="yes" />
 				<meta name="msapplication-config" content="/browserconfig.xml" />
 				<meta name="msapplication-navbutton-color" content="#000000" />
@@ -48,6 +48,7 @@ export default function SEO() {
 				<meta name="msapplication-tilecolor" content="#000000" />
 				<meta name="msapplication-tileimage" content="/mstile-144x144.png" />
 				<meta name="msapplication-tooltip" content="iinfin (@u29dc)" />
+				<meta name="theme-color" content="#000000" />
 			</Head>
 
 			<SocialProfileJsonLd

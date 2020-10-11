@@ -28,38 +28,6 @@ footer {
 
 main {
 	height: 90vh;
-
-	h1 {
-		font-size: 5rem;
-	}
-}
-
-footer {
-	height: 10vh;
-	width: 100%;
-	max-width: 90rem;
-	margin: 0 auto;
-
-	> * {
-		flex: 1;
-	}
-}
-
-.left {
-	.src {
-		a {
-			background-color: transparent;
-			border-radius: 50%;
-			border: 1px solid var(--c100);
-			display: block;
-			height: 1rem;
-			width: 1rem;
-		}
-	}
-}
-
-.right {
-	text-align: right;
 }
 
 #u29dc {
@@ -85,8 +53,37 @@ footer {
 			fill: var(--c100);
 		}
 	}
+}
 
-	a {
-		display: block;
-	}
+footer {
+	height: 10vh;
+	width: 100%;
+	max-width: 90rem;
+	margin: 0 auto;
+}
+
+.left,
+.right {
+	flex: 1;
+}
+
+.left {
+	text-align: left;
+}
+
+.right {
+	text-align: right;
+}
+
+.link--left {
+	background-color: transparent;
+	border-radius: 50%;
+	border: 1px solid var(--c100);
+	display: block;
+	height: 1rem;
+	width: 1rem;
+}
+
+a:focus {
+	opacity: 0.5;
 }

@@ -3,7 +3,7 @@ import Layout from '../components/layout';
 export default function Index() {
 	return (
 		<>
-			<Layout pageTitle="iinfin (@u29dc)">
+			<Layout>
 				<div id="u29dc">
 					<a href="mailto:han@iinf.in">
 						<svg viewBox="0 0 2000 2000" height="125px" width="125px">

@@ -5,7 +5,7 @@ export default function SEO() {
 	return (
 		<>
 			<NextSeo
-				title="iinfin @u29dc"
+				title="iinfin (@u29dc)"
 				canonical="https://iinf.in"
 				description="iinfin @u29dc"
 				openGraph={{

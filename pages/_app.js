@@ -1,4 +1,4 @@
-import '../styles/global.scss';
+import '../styles/index.scss';
 import SEO from '../components/seo';
 
 export default function App({Component, pageProps}) {

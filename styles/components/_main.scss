@@ -7,18 +7,20 @@ main {
 }
 
 #u29dc {
+	$spread: 20px;
+
 	border-radius: 50%;
-	border: 1px solid var(--c010);
+	box-shadow: $spread $spread $spread * 2 var(--c010), -1 * $spread -1 * $spread $spread * 2 var(--c000);
 	display: block;
 	height: 127px;
 	margin: auto;
-	transition: border 500ms ease;
+	transition: box-shadow 500ms ease;
 	width: 127px;
 
 	&:hover {
-		background-color: var(--c005);
-		border: 1px solid var(--c100);
+		box-shadow: none;
 		cursor: pointer;
+		transition: box-shadow 500ms ease;
 	}
 
 	svg {
